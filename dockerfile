@@ -6,7 +6,6 @@ WORKDIR /var/bot/
 
 RUN apt-get update
 RUN apt-get install git -y
-RUN apt-get install curl -y
 RUN apt-get install maven -y
 RUN git clone https://github.com/znakar/See
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
