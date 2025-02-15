@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 LABEL autor=anpm006
 LABEL platform=github
-LABEL descriprion="This container install nginx, remove apt cache, make /var/www/html as a workdir and copy files/index.html to a current directory"
+LABEL descriprtion="This container install nginx, remove apt cache, make /var/www/html as a workdir and copy files/index.html to a current directory"
 
 RUN apt-get update
 RUN apt-get install nginx -y
